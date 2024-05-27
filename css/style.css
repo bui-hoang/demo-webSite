@@ -1,0 +1,251 @@
+* {
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+.box_text {
+    background: #fff;
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+    border: #48ca95 solid 1px;
+    border-radius: 15px;
+}
+
+/* ---------------------------- ****************** css header ****************** ---------------------------- */
+.nav-link:hover {
+    font-size: 25px;
+    color: #04AA6D;
+    opacity: 1;
+}
+
+/* ---------------------------- ****************** css detail product ****************** ---------------------------- */
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+
+.titlepage h2 {
+    font-size: 40px;
+    color: #04AA6D;
+    line-height: 55px;
+    font-weight: 700;
+    padding: 50px;
+    text-transform: uppercase;
+    border-bottom: #48ca95 solid 1px;
+    max-width: 315px;
+    margin: auto;
+}
+
+
+.our_products .product_box h3 {
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #04AA6D;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-top: 40px;
+    transition: ease-in all .5s;
+    border-radius: 5px;
+}
+
+.our_products .product_box h3:hover {
+    background-color: white;
+    color: #04AA6D;
+    border: double 1px #04AA6D;
+    opacity: 1;
+}
+
+.read_more {
+    background-color: transparent;
+    border: #48ca95 solid 2px;
+    color: #48ca95;
+    max-width: 220px;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 50px 0 0 0;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.read_more:hover {
+    background-color: #04AA6D;
+    color: white;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.see_more {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ---------------------------- ****************** css detail computer ****************** ---------------------------- */
+.read_more_2 {
+    font-size: 25px;
+    background-color: transparent;
+    border: #48ca95 solid 2px;
+    color: #48ca95;
+    max-width: 220px;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 36px 0 0 0;
+    border-radius: 5px;
+}
+
+.read_more_2:hover {
+    background-color: #04AA6D;
+    color: white;
+    border: 2px solid white;
+    opacity: 1;
+}
+
+.computer {
+    background-color: #4f4aa6;
+    margin-top: 50px;
+}
+
+.computer .titlepage2 p {
+    font-size: 40px;
+    color: white;
+    padding-top: 130px;
+}
+
+.computer .titlepage2 h2 {
+    color: white;
+    font-size: 80px;
+}
+
+.laptop_box img {
+    width:  90%;
+    padding: 130px 0 130px 0;
+    margin: 0 0 0 70px;
+}
+
+
+
+
+/* ---------------------------- ****************** css contact ****************** ---------------------------- */
+.contact {
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.contact_form {
+    margin: auto;
+    width: 60%;
+}   
+
+.email {
+    float: right;
+    width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+    border: none;
+    border-bottom: solid 2px #04AA6D;
+    color: #474544;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+    outline: none;
+    padding: 0 0 0.875em 0;
+}
+
+.message {
+    float: none;
+}
+
+.name {
+    float: left;
+    width: 45%;
+}
+
+::-webkit-input-placeholder {
+    color: #474544;
+}
+
+:-moz-placeholder {
+    color: #474544;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #474544;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #474544;
+}
+
+#form_button {
+    background: none;
+    border: solid 2px #04AA6D;
+    color: #04AA6D;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#form_button:hover {
+    background: #04AA6D;
+    color: white;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.titlepag-2 h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    padding: 50px;
+    text-transform: uppercase;
+    border-bottom: #04AA6D solid 2px;
+    max-width: 315px;
+    margin: auto;
+    color: #04AA6D;
+}
+
+.thumbnail-img {
+    margin: 180px;
+}
+
+/* ---------------------------- ****************** css footer ****************** ---------------------------- */
+
+.btn-subscribe {
+    background-color: #48ca95;
+    border: solid 2px #48ca95;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 50px;
+    margin-bottom: 10px;
+}
+
+.btn-subscribe:hover {
+    background: white;
+    color: #04AA6D;
+    border: 2px solid #04AA6D;
+    opacity: 1;
+}
+
+.form-control {
+    border: solid 2px #04AA6D;
+    padding: 10px 10px;
+}
