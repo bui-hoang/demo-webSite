@@ -8,6 +8,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .d_flex {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .titlepage {
+            text-align: left;
+        }
+
+        .about .titlepage h2 {
+            max-width: inherit;
+            border: inherit;
+        }
+
+        .about .titlepage p {
+            padding: 30px 0;
+        }
+
+        .read_more {
+            font-size: 17px;
+            border: #48ca95 solid 2px;
+            color: #48ca95;
+            padding: 13px 0;
+            width: 100%;
+            max-width: 190px;
+            text-align: center;
+            display: inline-block;
+            transition: ease-in all .5s;
+            font-weight: 500;
+        }
+        .read_more:hover {
+            background-color: #04AA6D;
+            color: white;
+            opacity: 1;
+            border-radius: 5px;
+        }
+
+        .about_img figure img {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm">
@@ -41,60 +84,25 @@
             </ul>
         </div>
     </nav>
-    
-    <div class="contact">
+    <div class="about">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepag-2">
-                        <h2 class="text">Contact Now</h2>
-                    </div>
-                </div>
-                <div class="col-5 thumbnail">
-                    <img src="img/contact-us.jpg" alt="about">
-                </div>
-                <div class="col-7">
-                    <form action="#" method="post" id="contact_form" class="contact_form">
-                        <div class="name">
-                          <label for="name"></label>
-                          <input type="text" placeholder="First Name" name="name" id="name_input" class="form-contact" required>
-                        </div>
-                        <div class="email">
-                            <label for="email"></label>
-                            <input type="email" placeholder="Last Name" name="email" id="email_input" class="form-contact" required>
-                        </div>
-                        <div class="telephone">
-                            <label for="name"></label>
-                            <input type="text" placeholder="Phone Number" name="telephone" id="telephone_input" class="form-contact" required>
-                        </div>
-                        <div class="subject">
-                            <label for="subject"></label>
-                            <select placeholder="Subject line" class="option-input" name="subject" id="subject_input" class="form-contact" required>
-                                <option disabled hidden selected>Please choose a product</option>
-                                <option>Laptop</option>
-                                <option>PC Gaming</option>
-                                <option>PC Đồ Họa</option>
-                                <option>PC Văn Phòng</option>                
-                                <option>Linh Kiện PC</option>
-                                <option>Gaming Gear</option>
-                                <option>Thiết Bị Âm Thanh</option>
-                                <option>Thiết Bị Mạng</option>
-                            </select>
-                        </div>
-                        <div class="message">
-                            <label for="message"></label>
-                            <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" class="form-contact" required></textarea>
-                        </div>
-                        <div class="submit">
-                            <input type="submit" value="Send Message" id="form_button" />
-                        </div>
-                    </form>
-                </div>
+          <div class="row d_flex">
+            <div class="col-md-5">
+              <div class="titlepage">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <a class="read_more" href="https://www.free-css.com/free-css-templates">Read More</a></div>
             </div>
-        </div>   
-    </div>
+            <div class="col-md-7">
+              <div class="about_img">
+                <figure><img src="img/about.jpg" alt="website template image"></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <div class="footer">
+      <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-3">
